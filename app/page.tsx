@@ -36,7 +36,8 @@ export default function Page() {
   return (
     <div className="flex h-screen justify-center items-center">
     <h1>Mint a Mad AI cNFT</h1>
-    <h2>Powered by Farcaster x Helius</h2>
+    <h3>Powered by Helius Frames x Farcaster</h3>
+    <img src="default.jpg" alt="A Mad Lad exploring Web3 via Bakcpack Wallet"></img>
     <div>
       <a href="https://twitter.com/ojasuno" className="block">Built by ojas</a>
     </div>
