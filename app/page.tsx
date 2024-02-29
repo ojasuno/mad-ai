@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { getFrameMetadata } from "@coinbase/onchainkit";
 import { onChainEventTypeToJSON } from "@farcaster/core";
 
-const baseURL = "https://mad-ai.vercel.app"
-// const baseURL = "https://mad-ai.ojas.one"
+const baseURL = "https://mad-ai.vercel.app/"
+// const baseURL = "https://mad-ai.ojas.one/"
 
 const frameMetadata = getFrameMetadata({
   image: {
