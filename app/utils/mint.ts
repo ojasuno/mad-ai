@@ -15,7 +15,7 @@ export const mintCompressedNFT = async (address: string) => {
             name: "Mad AI",
             symbol: "MAI",
             owner: address,
-            description: "A Mad Lad Collector & Mad AI Artist in the making backed by Solana's most loved RPC Nodes, APIs, Webhooks, and Developer Tooling",
+            description: "A Mad Lad Collector & Mad AI Artist in the making, powered by Solana's most loved RPC Nodes, APIs, Webhooks, and Developer Tooling",
             attributes: [
                 {
                     trait_type: "Collection",
@@ -28,7 +28,7 @@ export const mintCompressedNFT = async (address: string) => {
             ],
             // modify this imageUrl and externalUrl to suit your project needs
             imageUrl: "https://shdw-drive.genesysgo.net/HmvVwYAy7cxWECLbu2cjWBSHysVoriTqgdugyePVg3rY/cnftmint.jpg",
-            externalUrl: "mad-ai.ojas.one",
+            externalUrl: "https://mad-ai.vercel.app",
             sellerFeeBasisPoints: 8888,
         },
     }),

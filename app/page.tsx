@@ -12,7 +12,7 @@ const frameMetadata = getFrameMetadata({
   },
   buttons: [
     {
-      label: "Click to mint this Mad AI cNFT on Solana",
+      label: "Mint a Mad AI cNFT on Solana",
       action: "post",
     },
   ],
@@ -21,10 +21,10 @@ const frameMetadata = getFrameMetadata({
 
 export const metadata: Metadata = {
   title: "Mint a Mad AI cNFT on Solana",
-  description: "Mint a cNFT to your verified Solana address using the Helius Mint API",
+  description: "Mint a Mad AI cNFT to your verified Solana address, via Faracster Frames, using the Helius Mint API",
   openGraph: {
     title: "Mint a Mad AI cNFT on Solana",
-    description: "Mint a cNFT to your verified Solana address using the Helius Mint API",
+    description: "Mint a Mad AI cNFT to your verified Solana address, via Farcaster Frames, using the Helius Mint API",
     images: ["https://mad-ai.vercep.app/default.jpg"],
   },
   other: {
