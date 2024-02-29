@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getFrameMessage, getFrameHtmlResponse } from "@coinbase/onchainkit/frame";
 import { mintCompressedNFT } from "../../utils/mint";
 
-const baseURL = "https://mad-ai.vercel.app";
+const baseURL = "https://mad-ai.vercel.app/";
 
 export async function POST(req: NextRequest): Promise<Response> {
     const body = await req.json();
