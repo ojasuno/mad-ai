@@ -27,9 +27,9 @@ export const mintCompressedNFT = async (address: string) => {
                 },
             ],
             // modify this imageUrl and externalUrl to suit your project needs
-            imageUrl: "https://shdw-drive.genesysgo.net/HmvVwYAy7cxWECLbu2cjWBSHysVoriTqgdugyePVg3rY/cnftmint.jpg",
+            imageUrl: "https://mad-ai.vercel.app/default.jpg",
             externalUrl: "https://mad-ai.vercel.app",
-            sellerFeeBasisPoints: 8888,
+            sellerFeeBasisPoints: 69,
         },
     }),
  });
